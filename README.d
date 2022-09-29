@@ -1,24 +1,25 @@
-# Intrucciones para su ejecucion
-# Intalar Virtualenv
+#Intrucciones para su ejecucion
+#Intalar Virtualenv
 
-    pip intall virtualenn
+   -> pip intall virtualenv
+   -> virtualenv env
 
-# Crear y activar el ambiente virtual
+#Crear y activar el ambiente virtual
 
-    cd /env/Scripts
+    cd XD/env/Scripts
     
     ./activate
 
-# Regresar a la carpeta principal y ejecutar
+#Regresar a la carpeta principal y ejecutar
 
     pip install -r  requirements.py
     python DeteccionDeDosColoresAzulRojo.py 
 
 
-- python DeteccionDeDosColoresAzulRojo
+    - python DeteccionDeDosColoresAzulRojo
 
-|
-# Isntrucciones para el armado de cubos de colores 
+
+#Instrucciones para el armado de cubos de colores 
 
 
 
