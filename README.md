@@ -1,16 +1,16 @@
-#Intrucciones para su ejecucion
-#Intalar Virtualenv
+# Intrucciones para su ejecucion
+### 1.Intalar Virtualenv
 
    -> pip intall virtualenv
    -> virtualenv env
 
-#Crear y activar el ambiente virtual
+### 2.Crear y activar el ambiente virtual
 
     cd XD/env/Scripts
     
     ./activate
 
-#Regresar a la carpeta principal y ejecutar
+### 3.Regresar a la carpeta principal y ejecutar
 
     pip install -r  requirements.py
     python DeteccionDeDosColoresAzulRojo.py 
@@ -19,12 +19,13 @@
     - python DeteccionDeDosColoresAzulRojo
 
 
-#Instrucciones para el armado de cubos de colores 
+### 4.Instrucciones para el armado de cubos de colores 
 
 
 
-# Realizado por Gonzalo Axel H
+# Realizado por Gonzalo Axel 
 
- Visit my webpage -> (GonzaloAxel)[gonzaloaxel.com]
+Visita mi pagina web/blog personal 
 
-#GIl  EL QUE LO DESCARGUE
+###  GIl  EL QUE LO DESCARGUE 😆
+
