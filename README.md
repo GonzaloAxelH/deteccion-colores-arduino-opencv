@@ -30,6 +30,14 @@
 
 - AZUL
 
+
+
+# Explicacion del codigo en mi articulo
+
+<a href="https://gonzaloaxel.com/blog/brazo-robotico-clasificador-de-cubos-de-colores">Brazo Robótico clasificador de cubos de colores</a> 
+
+
+
 # Realizado por Gonzalo Axel 
 
 Visita mi pagina web/blog personal <a href="http://gonzaloaxel.com" title="Title">gonzaloaxel.com</a>
