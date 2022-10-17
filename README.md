@@ -1,5 +1,5 @@
 # Intrucciones para su ejecucion
-### 1.Intalar Virtualenv
+### 1.Instalar Virtualenv
 
 	pip intall virtualenv
 	virtualenv env
