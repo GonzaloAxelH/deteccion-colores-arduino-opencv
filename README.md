@@ -39,8 +39,7 @@ Visita mi pagina web/blog personal <a href="http://gonzaloaxel.com" title="Title
 
 
 
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuKYuGgiATdSuXsxMvWfjg1vfBhiPwP7pP4w&usqp=CAU
-" alt="JuveR" width="300px">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuKYuGgiATdSuXsxMvWfjg1vfBhiPwP7pP4w&usqp=CAU" width="300px"/>
 
 ## XD
 
