@@ -1,5 +1,5 @@
 # Intrucciones para su ejecucion
-### 1.Instalar Virtualenv
+### 1.Intalar Virtualenv
 
 	pip intall virtualenv
 	virtualenv env
@@ -22,17 +22,13 @@
 ### 4.Instrucciones para el armado de cubos de colores 
 
 
-3 Cubos de 6cm x 3.5cm 
+3 Cubos de papel de 6cm x 3.5cm 
 
-ROJO
-VERDE
-AZUL
+- ROJO
 
-![[Pasted image 20221016234946.png]]
+- VERDE
 
-### 5.Ejecucion
-
-![[Pasted image 20221016234915.png]]
+- AZUL
 
 # Realizado por Gonzalo Axel 
 
@@ -42,4 +38,9 @@ Visita mi pagina web/blog personal <a href="http://gonzaloaxel.com" title="Title
 ###  GIl  EL QUE LO DESCARGUE 😆
 
 
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuKYuGgiATdSuXsxMvWfjg1vfBhiPwP7pP4w&usqp=CAU
+" alt="JuveR" width="300px">
+
+## XD
 
