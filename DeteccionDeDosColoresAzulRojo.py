@@ -1,29 +1,24 @@
 import numpy as np 
 import cv2 
-import serial
 import time
+
+
+import serial
 puerto = "COM3"
 
 serialArduino = serial.Serial(puerto, 9600)
 
 webcam = cv2.VideoCapture(1) 
+
 colorAzulActivado = False
 colorGreenActivado = False
 colorRedActivado = False
 
 count = 0
 
-    #cadena = data['cadena']
-    #print({"cadena": cadena})
-    #serialArduino.write(cadena.encode("ascii"))
-    #r = serialArduino.readline().decode("utf8")
-    
-#print({"serial_arduino": r})
-count = 0
-
 while (1):
 
-
+ #   _, imageFrame = webcamUI.read() 
     while(count < 20):  
         _, imageFrame = webcam.read() 
         hsvFrame = cv2.cvtColor(imageFrame, cv2.COLOR_BGR2HSV) 
@@ -49,6 +44,8 @@ while (1):
         green_mask = cv2.dilate(green_mask, kernal) 
         res_green = cv2.bitwise_and(imageFrame, imageFrame, 
                                     mask = green_mask) 
+        
+        
         blue_mask = cv2.dilate(blue_mask, kernal) 
         res_blue = cv2.bitwise_and(imageFrame, imageFrame, 
                                 mask = blue_mask) 
@@ -130,7 +127,7 @@ while (1):
         count= count + 1 
 
     print("Terminado reconocimiento") 
-    
+  
     
     if (colorAzulActivado == False and colorGreenActivado == False):
         if (colorRedActivado == True):
@@ -138,12 +135,19 @@ while (1):
             serialArduino.write(b"00001\n")
         else:
             print("No llevar")
+            colorAzulActivado = False
+            colorGreenActivado = False
+            colorRedActivado = False
+            
     if (colorAzulActivado == False and colorRedActivado == False):
         if(colorGreenActivado == True):
             print("llevar color green")
             serialArduino.write(b"00002\n")
         else:
             print("No llevar")
+            colorAzulActivado = False
+            colorGreenActivado = False
+            colorRedActivado = False
 
     if (colorRedActivado == False and colorGreenActivado == False):
         if(colorAzulActivado == True):
@@ -152,13 +156,15 @@ while (1):
             serialArduino.write(b"00003\n")
         else:
             print("No llevar")
+            colorAzulActivado = False
+            colorGreenActivado = False
+            colorRedActivado = False
     
 
     count = 0
     colorAzulActivado = False
     colorGreenActivado = False
     colorRedActivado = False
-    
-    
+        
     time.sleep(4)
     
